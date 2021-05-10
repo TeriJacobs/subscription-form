@@ -1,0 +1,94 @@
+body{
+    background-image: url("/images/darqor-candles.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.container{
+    color: rgb(239, 240, 243);
+    position: relative;
+    
+}
+
+.landing-page-overlay{
+    background-color: rgba(0,0,0,0.9);
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    padding-top:3rem;
+    padding-bottom:2rem;
+}
+
+.logo{
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.logo-lable{
+    position: relative;
+}
+
+.dot {
+    position: absolute;
+    top: -15px;
+    left: 41.2%;
+    height: 125px;
+    width: 125px;
+    /* background-color: #bbb; */
+    border: 3px solid white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  /*media queries*/
+  @media (max-width: 575.98px) { 
+    body{
+        /* background-color: rgba(0,0,0,0.6); */
+        z-index:2;
+    }
+
+    .container{
+        margin:0;
+
+    }
+
+    .landing-page-overlay{
+        background-color: rgba(0,0,0,0.7)!important;
+    }
+
+    .dot {
+        position: absolute;
+        /* top: -15px; */
+        left: 30%;
+        height: 84px;
+        width: 84px;
+        /* background-color: #bbb; */
+        border: 3px solid white;
+        border-radius: 50%;
+        display: inline-block;
+      }
+
+      .display-4{
+          margin-bottom:2rem;
+      }
+
+      .description{
+        /* text-align:left!important; */
+        font-size:1rem;
+        margin-bottom:1rem;
+      }
+
+      .sign-up{
+          font-size:16px;
+      }
+
+      .mobile-text{
+        text-align: justify;
+        font-size: 12px;
+        margin-left:5px;
+      }
+
+      .mobile-button{
+          margin-top:2rem;
+      }
+   }
